@@ -1,0 +1,9 @@
+[
+  { "score": 15, "name": "europe" },
+  { "score": 7, "name": "canada" },
+  { "score": 5, "name": "usa" },
+  { "score": 4, "name": "africa" },
+  { "score": 3, "name": "asia" },
+  { "score": 2, "name": "latina" },
+  { "score": 1, "name": "oceania" }
+]

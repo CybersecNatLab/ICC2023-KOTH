@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html {
+    height: 100%;
+    font-family: 'VT323', monospace !important;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#root > header {
+    flex-shrink: 0;
+}
+#root > footer {
+    flex-shrink: 0;
+}
+
+#root > div {
+    flex-grow: 1;
+}
+
+button, input {
+    font-family: 'VT323', monospace !important;
+}
+
+div.pixel {
+  width: 36px;
+  height: 36px;
+
+  position: absolute;
+}
+
+div.pixel.white {
+  background-color: #fff;
+}
+
+div.pixel.primary {
+  background-color: #023399;
+}
+
+div.pixel.accent {
+  background-color: #2AAAE3;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+    cursor: grab;
+}
+input[type="range"]:hover::-moz-range-thumb {
+    cursor: grab;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+    cursor: grabbing;
+}
+input[type="range"]:active::-moz-range-thumb {
+    cursor: grab;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-color: #2AAAE3;
+    border-radius: 0.5rem;
+    height: 0.6rem;
+}
+input[type="range"]::-moz-range-track {
+    appearance: none;
+
+    background-color: #2AAAE3;
+    border-radius: 0.5rem;
+    height: 0.6rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-color: white;
+
+    border: 1px solid #2AAAE3;
+    border-radius: 100%;
+
+    margin-top: -.3rem;
+
+    height: 1.2rem;
+    width: 1.2rem;
+}
+input[type="range"]::-moz-range-thumb  {
+    appearance: none;
+
+    background-color: white;
+
+    border: 1px solid #2AAAE3;
+    border-radius: 100%;
+
+    margin-top: -.6rem;
+
+    height: 1.2rem;
+    width: 1.2rem;
+}

@@ -1,0 +1,31 @@
+GetOwnInformation r1, r2, r3, r4
+rnd #1, #4, r0
+Log "Random number is "
+Log r0
+cmp r0, #1
+JMPEQ0 one
+
+cmp r0, #2
+JMPEQ0 two
+
+cmp r0, #3
+JMPEQ0 three
+
+cmp r0, #4
+JMPEQ0 four
+
+:one
+add r1, #1, r1
+MoveTo r1, r2
+
+:two
+add r2, #1, r2
+MoveTo r1, r2
+
+:three
+add r1, #-1, r1
+MoveTo r1, r2
+
+:four
+add r2, #-1, r2
+MoveTo r1, r2

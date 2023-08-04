@@ -1,0 +1,333 @@
+log "Test log immediate"
+
+; test init immediate
+InitBoolean r0, false
+InitFloat r1, #1.5
+InitInteger r2, #100
+InitString r3, "testStringa"
+InitString r4, "Expected false is: "
+add r4, r0, r4
+log r4
+InitString r4, "Expected 1.5 is: "
+add r4, r1, r4
+log r4
+InitString r4, "Expected 100 is: "
+add r4, r2, r4
+log r4
+InitString r4, "Expected testStringa is: "
+add r4, r3, r4
+log r4
+
+; test init from registry
+InitBoolean r5, r0
+InitFloat r6, r1
+InitInteger r7, r2
+InitString r8, r3
+InitString r4, "Expected false is: "
+add r4, r5, r4
+log r4
+InitString r4, "Expected 1.5 is: "
+add r4, r6, r4
+log r4
+InitString r4, "Expected 100 is: "
+add r4, r7, r4
+log r4
+InitString r4, "Expected testStringa is: "
+add r4, r8, r4
+log r4
+
+; test init, add, remove Arrays
+InitBooleanArray r5
+InitFloatArray r6
+InitIntegerArray r7
+InitStringArray r8
+AddBooleanToArray  r5, false
+AddBooleanToArray  r5, false
+SetBooleanToArray  r5, #10, false
+RemoveFromArray r5, #1
+AddFloatToArray  r6, #3.14
+AddFloatToArray  r6, #3.14
+SetFloatToArray  r6, #10, #3.14
+RemoveFromArray r6, #1
+AddIntegerToArray  r7, #777
+AddIntegerToArray  r7, #777
+SetIntegerToArray  r7, #10, #777
+RemoveFromArray r7, #1
+AddStringToArray  r8, "test"
+AddStringToArray  r8, "test"
+SetStringToArray  r8, #10, "test"
+RemoveFromArray r8, #1
+InitString r4, "Expected booleanList is: "
+add r4, r5, r4
+log r4
+InitString r4, "Expected floatList is: "
+add r4, r6, r4
+log r4
+InitString r4, "Expected Integerlist is: "
+add r4, r7, r4
+log r4
+InitString r4, "Expected Stringlist is: "
+add r4, r8, r4
+log r4
+
+; test get arrays
+GetFromArray r5, #10, r10
+GetFromArray r6, #10, r11
+GetFromArray r7, #10, r12
+GetFromArray r8, #10, r13
+InitString r4, "Expected boolean is: "
+add r4, r10, r4
+log r4
+InitString r4, "Expected float is: "
+add r4, r11, r4
+log r4
+InitString r4, "Expected Integer is: "
+add r4, r12, r4
+log r4
+InitString r4, "Expected String is: "
+add r4, r13, r4
+log r4
+GetFromArray r5, #11, r14
+InitString r4, "Expected null is: "
+add r4, r14, r4
+log r4
+
+; test IsNull
+
+IsNull r15
+JMPEQ0 trueempty
+log "This should not be logged"
+:trueempty
+log "This should be logged"
+IsNull r13
+JMPNEQ0 falseempty
+log "This should not be logged"
+:falseempty
+log "This should be logged"
+
+; test operations
+InitInteger r1, #1
+InitInteger r2, #2
+InitFloat r3, #1.5
+InitFloat r4, #2.5
+InitBoolean r5, true
+InitBoolean r6, true
+InitString r7, "aaa"
+InitString r8, "bbb"
+add r1, r2, r9
+InitString r10, "Expecting 3 got "
+add r10, r9, r10
+log r10
+add r3, r4, r9
+InitString r10, "Expecting 4.0 got "
+add r10, r9, r10
+log r10
+add r7, r8, r9
+InitString r10, "Expecting aaabbb got "
+add r10, r9, r10
+log r10
+add r1, r3, r9
+InitString r10, "Expecting 2 or 3 got "
+add r10, r9, r10
+log r10
+add r3, r1, r9
+InitString r10, "Expecting 2.5 got "
+add r10, r9, r10
+log r10
+add r1, r5, r9
+InitString r10, "Expecting 2 got "
+add r10, r9, r10
+log r10
+add r3, r5, r9
+InitString r10, "Expecting 2.5 got "
+add r10, r9, r10
+log r10
+sub r1, r2, r9
+InitString r10, "Expecting -1 got "
+add r10, r9, r10
+log r10
+sub r3, r4, r9
+InitString r10, "Expecting -1.0 got "
+add r10, r9, r10
+log r10
+mul r1, r2, r9
+InitString r10, "Expecting 2 got "
+add r10, r9, r10
+log r10
+mul r3, r4, r9
+InitString r10, "Expecting 3.75 got "
+add r10, r9, r10
+log r10
+mul r1, r4, r9
+InitString r10, "Expecting 2 got "
+add r10, r9, r10
+log r10
+mul r4, r2, r9
+InitString r10, "Expecting 5.0 got "
+add r10, r9, r10
+log r10
+div r1, r2, r9
+InitString r10, "Expecting 0.5 got "
+add r10, r9, r10
+log r10
+div r4, r3, r9
+InitString r10, "Expecting 1.66666666 got "
+add r10, r9, r10
+log r10
+div r4, r2, r9
+InitString r10, "Expecting 1.25 got "
+add r10, r9, r10
+log r10
+shl r1, #5, r9
+InitString r10, "Expecting 32 got "
+add r10, r9, r10
+log r10
+shr r9, #2, r9
+InitString r10, "Expecting 8 got "
+add r10, r9, r10
+log r10
+neg r9, r9
+InitString r10, "Expecting -8 got "
+add r10, r9, r10
+log r10
+shr r9, #2, r9
+InitString r10, "Expecting 1073741822 got "
+add r10, r9, r10
+log r10
+InitInteger r9, #-8
+sar r9, #2, r9
+InitString r10, "Expecting -4 got "
+add r10, r9, r10
+log r10
+
+; boolean operations
+
+InitInteger r0, #10
+InitInteger r1, #7
+and r0, r1, r0
+InitString r10, "Expecting 2 got "
+add r10, r0, r10
+log r10
+InitInteger r0, #10
+InitInteger r1, #7
+or r0, r1, r0
+InitString r10, "Expecting 15 got "
+add r10, r0, r10
+log r10
+InitInteger r0, #10
+InitInteger r1, #7
+xor r0, r1, r0
+InitString r10, "Expecting 13 got "
+add r10, r0, r10
+log r10
+InitInteger r0, #10
+not r0, r0
+InitString r10, "Expecting-10 got "
+add r10, r0, r10
+log r10
+InitInteger r0, #10
+not r0, r0
+InitBoolean r0, true
+InitBoolean r1, false
+and r0, r1, r0
+InitString r10, "Expecting false got "
+add r10, r0, r10
+log r10
+InitBoolean r0, true
+InitBoolean r1, false
+or r0, r1, r0
+InitString r10, "Expecting true got "
+add r10, r0, r10
+log r10
+InitBoolean r0, true
+InitBoolean r1, false
+xor r0, r1, r0
+InitString r10, "Expecting true got "
+add r10, r0, r10
+log r10
+InitBoolean r0, true
+not r0, r0
+InitString r10, "Expecting false got "
+add r10, r0, r10
+log r10
+
+; test rounding
+InitFloat r0, #1.7
+ceil r0, r1
+floor r0, r2
+round r0, r3
+InitString r10, "Expecting 2 got "
+add r10, r1, r10
+log r10
+InitString r10, "Expecting 1 got "
+add r10, r2, r10
+log r10
+InitString r10, "Expecting 2 got "
+add r10, r3, r10
+log r10
+
+
+; test mod
+InitInteger r0, #10
+InitInteger r1, #3
+mod r0, r1, r2
+InitString r10, "Expecting 1 got "
+add r10, r2, r10
+log r10
+
+
+; test rnd
+InitInteger r0, #10
+InitInteger r1, #3
+rnd r0, r1, r2
+InitString r10, "Expecting between 3 and 10 got "
+add r10, r2, r10
+log r10
+
+; test cmp and jumps
+
+InitInteger r0, #10
+InitInteger r1, #3
+cmp r0, r1
+JMPG0 g0
+log "This should not be logged"
+:g0
+log "This should be logged"
+cmp r1, r0
+JMPL0 l0
+log "This should not be logged"
+:l0
+log "This should be logged"
+
+
+
+; map and own informations
+
+GetOwnInformation r0, r1, r2, r3
+InitString r10, "GetOwnInformation return value "
+add r10, r0, r10
+add r10, " ", r10
+add r10, r1, r10
+add r10, " ", r10
+add r10, r2, r10
+add r10, " ", r10
+add r10, r3, r10
+log r10
+GetTileInformation r0, r1, r2, r3, r4, r5, r6, r7
+InitString r10, "GetTileInformation return value "
+add r10, r2, r10
+add r10, " ", r10
+add r10, r3, r10
+add r10, " ", r10
+add r10, r4, r10
+add r10, " ", r10
+add r10, r5, r10
+add r10, " ", r10
+add r10, r6, r10
+add r10, " ", r10
+add r10, r7, r10
+log r10
+
+
+DoNothing
+

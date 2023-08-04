@@ -1,0 +1,2 @@
+GetOwninformation r0, r1, r2, r3 ; test commento
+MoveTo r0, r1

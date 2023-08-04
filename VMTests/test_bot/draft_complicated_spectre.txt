@@ -1,0 +1,61 @@
+log "[spectre] spectre test initialized"
+
+log "[spectre] loading r0:"
+log r0
+
+isEmpty r0
+JMPEQ0 setdirection
+
+:setdirection
+
+GetOwnInformation r1, r2, r3, r4
+log "[spectre] current position:"
+log r1
+log r2
+
+InitInteger r5, #-1
+:loop1
+
+InitInteger r6, #-1
+:loop2
+
+add r1, r5, r8
+add r2, r6, r9
+
+getTileEntity r8, r9, r7
+log "[spectre] got entity:"
+log r7
+
+isEmpty r7
+JMPEQ0 continue
+
+cmp r7, #0
+JMPNEQ0 continue
+
+getTileEntityID r8, r9, r7
+log "[spectre] got entityID:"
+log r7
+cmp r7, "changeme"; change the "changeme"
+JMPEQ0 continue
+
+sub r8, r1, r8
+sub r9, r2, r9
+
+
+
+:continue
+add r6, #1, r6
+
+cmp r6, #2
+JMPNEQ0 continue2
+add r5, #1, r5
+
+cmp r5, #2
+JMPEQ0 finish; should never jump here
+
+JMP loop1
+
+:continue2
+JMP loop2
+
+:finish

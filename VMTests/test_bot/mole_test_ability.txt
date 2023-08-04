@@ -1,0 +1,6 @@
+rnd #1, #2, r0
+cmp r0, #1
+JMPEQ0 ability
+MoveTo #0, #0
+:ability
+UseAbility #0

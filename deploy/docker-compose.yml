@@ -1,0 +1,166 @@
+version: "3.3"
+
+services:
+  registry_africa:
+    image: "registry:latest"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_HTTP_HOST: "https://africa.koth.icc.cybersecnatlab.it"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.registry_africa.rule=Host(`africa.koth.icc.cybersecnatlab.it`)"
+      - "traefik.http.services.registry_africa.loadbalancer.server.port=5000"
+      - "traefik.http.routers.registry_africa.entrypoints=websecure"
+      - "traefik.http.routers.registry_africa.tls=true"
+      - "traefik.http.routers.registry_africa.tls.certresolver=letsencrypt"
+    volumes:
+      - ./auth/africa:/auth
+    hostname: registry_africa
+    networks:
+      - traefik
+
+  registry_asia:
+    image: "registry:latest"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_HTTP_HOST: "https://asia.koth.icc.cybersecnatlab.it"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.registry_asia.rule=Host(`asia.koth.icc.cybersecnatlab.it`)"
+      - "traefik.http.services.registry_asia.loadbalancer.server.port=5000"
+      - "traefik.http.routers.registry_asia.entrypoints=websecure"
+      - "traefik.http.routers.registry_asia.tls=true"
+      - "traefik.http.routers.registry_asia.tls.certresolver=letsencrypt"
+    volumes:
+      - ./auth/asia:/auth
+    hostname: registry_asia
+    networks:
+      - traefik
+
+  registry_canada:
+    image: "registry:latest"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_HTTP_HOST: "https://canada.koth.icc.cybersecnatlab.it"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.registry_canada.rule=Host(`canada.koth.icc.cybersecnatlab.it`)"
+      - "traefik.http.services.registry_canada.loadbalancer.server.port=5000"
+      - "traefik.http.routers.registry_canada.entrypoints=websecure"
+      - "traefik.http.routers.registry_canada.tls=true"
+      - "traefik.http.routers.registry_canada.tls.certresolver=letsencrypt"
+    volumes:
+      - ./auth/canada:/auth
+    hostname: registry_canada
+    networks:
+      - traefik
+
+  registry_europe:
+    image: "registry:latest"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_HTTP_HOST: "https://europe.koth.icc.cybersecnatlab.it"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.registry_europe.rule=Host(`europe.koth.icc.cybersecnatlab.it`)"
+      - "traefik.http.services.registry_europe.loadbalancer.server.port=5000"
+      - "traefik.http.routers.registry_europe.entrypoints=websecure"
+      - "traefik.http.routers.registry_europe.tls=true"
+      - "traefik.http.routers.registry_europe.tls.certresolver=letsencrypt"
+    volumes:
+      - ./auth/europe:/auth
+    hostname: registry_europe
+    networks:
+      - traefik
+
+  registry_latina:
+    image: "registry:latest"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_HTTP_HOST: "https://latina.koth.icc.cybersecnatlab.it"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.registry_latina.rule=Host(`latina.koth.icc.cybersecnatlab.it`)"
+      - "traefik.http.services.registry_latina.loadbalancer.server.port=5000"
+      - "traefik.http.routers.registry_latina.entrypoints=websecure"
+      - "traefik.http.routers.registry_latina.tls=true"
+      - "traefik.http.routers.registry_latina.tls.certresolver=letsencrypt"
+    volumes:
+      - ./auth/latina:/auth
+    hostname: registry_latina
+    networks:
+      - traefik
+
+  registry_oceania:
+    image: "registry:latest"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_HTTP_HOST: "https://oceania.koth.icc.cybersecnatlab.it"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.registry_oceania.rule=Host(`oceania.koth.icc.cybersecnatlab.it`)"
+      - "traefik.http.services.registry_oceania.loadbalancer.server.port=5000"
+      - "traefik.http.routers.registry_ocenia.entrypoints=websecure"
+      - "traefik.http.routers.registry_ocenia.tls=true"
+      - "traefik.http.routers.registry_oceania.tls.certresolver=letsencrypt"
+    volumes:
+      - ./auth/oceania:/auth
+    hostname: registry_oceania
+    networks:
+      - traefik
+
+  registry_usa:
+    image: "registry:latest"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.password
+      REGISTRY_HTTP_HOST: "https://usa.koth.icc.cybersecnatlab.it"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.registry_usa.rule=Host(`usa.koth.icc.cybersecnatlab.it`)"
+      - "traefik.http.services.registry_usa.loadbalancer.server.port=5000"
+      - "traefik.http.routers.registry_usa.entrypoints=websecure"
+      - "traefik.http.routers.registry_usa.tls=true"
+      - "traefik.http.routers.registry_usa.tls.certresolver=letsencrypt"
+    volumes:
+      - ./auth/usa:/auth
+    hostname: registry_usa
+    networks:
+      - traefik
+
+  webservice:
+    build: "webservice"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik"
+      - "traefik.http.routers.webservice.rule=Host(`koth.icc.cybersecnatlab.it`) || Host(`10.10.0.4`)"
+      - "traefik.http.services.webservice.loadbalancer.server.port=3000"
+      - "traefik.http.routers.webservice.entrypoints=web"
+    volumes:
+      - "./docker_game_manager/results:/results"
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true

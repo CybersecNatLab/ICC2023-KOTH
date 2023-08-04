@@ -1,0 +1,3983 @@
+[
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "Test log immediate"
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 3,
+                "value": false
+            }
+        ]
+    },
+    {
+        "instruction": 12,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 2,
+                "value": 1.5
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 1,
+                "value": 100
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 4,
+                "value": "testStringa"
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected false is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected 1.5 is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected 100 is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected testStringa is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 12,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 0,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 0,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 0,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected false is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected 1.5 is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected 100 is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected testStringa is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 11,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            }
+        ]
+    },
+    {
+        "instruction": 13,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            }
+        ]
+    },
+    {
+        "instruction": 15,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            }
+        ]
+    },
+    {
+        "instruction": 17,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            }
+        ]
+    },
+    {
+        "instruction": 0,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 3,
+                "value": false
+            }
+        ]
+    },
+    {
+        "instruction": 0,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 3,
+                "value": false
+            }
+        ]
+    },
+    {
+        "instruction": 6,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 3,
+                "value": false
+            }
+        ]
+    },
+    {
+        "instruction": 5,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 1,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 1,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 2,
+                "value": 3.14
+            }
+        ]
+    },
+    {
+        "instruction": 1,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 2,
+                "value": 3.14
+            }
+        ]
+    },
+    {
+        "instruction": 7,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 2,
+                "value": 3.14
+            }
+        ]
+    },
+    {
+        "instruction": 5,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 1,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 2,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 1,
+                "value": 777
+            }
+        ]
+    },
+    {
+        "instruction": 2,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 1,
+                "value": 777
+            }
+        ]
+    },
+    {
+        "instruction": 8,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 1,
+                "value": 777
+            }
+        ]
+    },
+    {
+        "instruction": 5,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 1,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 3,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 4,
+                "value": "test"
+            }
+        ]
+    },
+    {
+        "instruction": 3,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 4,
+                "value": "test"
+            }
+        ]
+    },
+    {
+        "instruction": 9,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "test"
+            }
+        ]
+    },
+    {
+        "instruction": 5,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 1,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected booleanList is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected floatList is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected Integerlist is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected Stringlist is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 4,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 4,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 11
+            }
+        ]
+    },
+    {
+        "instruction": 4,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 12
+            }
+        ]
+    },
+    {
+        "instruction": 4,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 1,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 13
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected boolean is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected float is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 11
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected Integer is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 12
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected String is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 13
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 4,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 1,
+                "value": 11
+            },
+            {
+                "type": 0,
+                "value": 14
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 4,
+                "value": "Expected null is: "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 14
+            },
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            }
+        ]
+    },
+    {
+        "instruction": 38,
+        "params": [
+            {
+                "type": 0,
+                "value": 15
+            }
+        ]
+    },
+    {
+        "instruction": 42,
+        "params": [
+            {
+                "type": 1,
+                "value": 88
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should not be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 38,
+        "params": [
+            {
+                "type": 0,
+                "value": 13
+            }
+        ]
+    },
+    {
+        "instruction": 43,
+        "params": [
+            {
+                "type": 1,
+                "value": 92
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should not be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 1,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "instruction": 12,
+        "params": [
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 2,
+                "value": 1.5
+            }
+        ]
+    },
+    {
+        "instruction": 12,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 2,
+                "value": 2.5
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 3,
+                "value": true
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 3,
+                "value": true
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 4,
+                "value": "aaa"
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 4,
+                "value": "bbb"
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 3 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 4.0 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 0,
+                "value": 8
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting aaabbb got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2 or 3 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2.5 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2.5 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 19,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting -1 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 19,
+        "params": [
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting -1.0 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 20,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 20,
+        "params": [
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 3.75 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 20,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 20,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 5.0 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 21,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 0.5 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 21,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 1.66666666 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 21,
+        "params": [
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 1.25 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 31,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 32 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 30,
+        "params": [
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 1,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 8 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 29,
+        "params": [
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting -8 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 30,
+        "params": [
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 1,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 1073741822 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 1,
+                "value": -8
+            }
+        ]
+    },
+    {
+        "instruction": 32,
+        "params": [
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 1,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 9
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting -4 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 9
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 7
+            }
+        ]
+    },
+    {
+        "instruction": 25,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 7
+            }
+        ]
+    },
+    {
+        "instruction": 26,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 15 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 7
+            }
+        ]
+    },
+    {
+        "instruction": 28,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 13 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 27,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting-10 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 27,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 3,
+                "value": true
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 3,
+                "value": false
+            }
+        ]
+    },
+    {
+        "instruction": 25,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting false got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 3,
+                "value": true
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 3,
+                "value": false
+            }
+        ]
+    },
+    {
+        "instruction": 26,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting true got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 3,
+                "value": true
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 3,
+                "value": false
+            }
+        ]
+    },
+    {
+        "instruction": 28,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting true got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 10,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 3,
+                "value": true
+            }
+        ]
+    },
+    {
+        "instruction": 27,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting false got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 12,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 2,
+                "value": 1.7
+            }
+        ]
+    },
+    {
+        "instruction": 33,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 34,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "instruction": 35,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 1 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 2 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "instruction": 22,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting 1 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "instruction": 37,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "Expecting between 3 and 10 got "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 1,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 14,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 1,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "instruction": 46,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "instruction": 45,
+        "params": [
+            {
+                "type": 1,
+                "value": 264
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should not be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 46,
+        "params": [
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "instruction": 44,
+        "params": [
+            {
+                "type": 1,
+                "value": 268
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should not be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 4,
+                "value": "This should be logged"
+            }
+        ]
+    },
+    {
+        "instruction": 40,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 3
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "GetOwnInformation return value "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 39,
+        "params": [
+            {
+                "type": 0,
+                "value": 0
+            },
+            {
+                "type": 0,
+                "value": 1
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 0,
+                "value": 7
+            }
+        ]
+    },
+    {
+        "instruction": 16,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": "GetTileInformation return value "
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 2
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 3
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 4
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 5
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 6
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 4,
+                "value": " "
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 18,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            },
+            {
+                "type": 0,
+                "value": 7
+            },
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 50,
+        "params": [
+            {
+                "type": 0,
+                "value": 10
+            }
+        ]
+    },
+    {
+        "instruction": 49,
+        "params": []
+    }
+]

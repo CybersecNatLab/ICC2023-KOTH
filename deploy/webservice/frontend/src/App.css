@@ -1,0 +1,129 @@
+header {
+  height: 100px;
+  background-color: #023399;
+
+  color: #ffffff;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  position: relative;
+}
+
+header > h1 {
+  font-size: 60px;
+  font-weight: normal;
+
+  margin: 0;
+}
+
+header > ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+
+  margin: 0;
+}
+
+header > ul a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+header > ul a.active {
+  color: #fff;
+}
+
+header > .buttons {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+header > .buttons > span {
+  font-size: 25px;
+}
+
+header > .buttons > button {
+  background-color: #000;
+  color: #fff;
+
+  cursor: pointer;
+  font-size: 30px;
+
+  border: 2px solid transparent;
+  border-radius: 8px;
+
+  padding: 0.3rem 1.5rem;
+}
+header > .buttons > a {
+  background-color: #000;
+  color: #fff;
+
+  text-decoration: none;
+
+  cursor: pointer;
+  font-size: 30px;
+
+  border: 2px solid transparent;
+  border-radius: 8px;
+
+  padding: 0.3rem 1.5rem;
+}
+
+header > .buttons > button:hover {
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+}
+header > .buttons > a:hover {
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+}
+
+footer {
+  height: 100px;
+  background-color: #023399;
+  padding: 2rem 15%;
+
+  color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+footer img {
+  height: 100%;
+}
+
+div.not-found {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.not-found > h1 {
+  font-size: 80px;
+}
+
+.live {
+  background-color: #dc3545 !important;
+}
+
+.dot {
+  border-radius: 48px;
+  padding: 4px;
+  background-color: white;
+}

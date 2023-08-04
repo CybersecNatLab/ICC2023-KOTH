@@ -1,0 +1,29 @@
+services:
+  traefik:
+    image: "traefik:v2.4"
+    restart: always
+    container_name: "traefik"
+    command:
+      - "--api=false"
+      - "--api.insecure=false"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entryPoints.web.forwardedHeaders.trustedIPs=10.10.0.0/24,172.16.0.0/12"
+      - "--entrypoints.websecure.address=:443"
+      - "--global.sendAnonymousUsage=false"
+      - "--certificatesResolvers.letsencrypt.acme.email=info@cybersecnatlab.it"
+      - "--certificatesResolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
+      - "--certificatesResolvers.letsencrypt.acme.tlschallenge=true"
+    ports:
+      - "0.0.0.0:80:80"
+      - "0.0.0.0:443:443"
+    volumes:
+      - "./letsencrypt:/letsencrypt"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external: true

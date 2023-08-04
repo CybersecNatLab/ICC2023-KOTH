@@ -1,0 +1,13 @@
+{
+  "MAX_WAIT_FOR_MOVE_IN_MS": 100,
+  "PLAYER_CONNECTION_URIS": [
+    "summoner1:5000",
+    "summoner2:5000"
+  ],
+  "PLAYER_NAMES": [
+    "summoner1",
+    "summoner2"
+  ],
+  "OUTPUT_INFO_DIRECTORY": "/results",
+  "SHOULD_SHRINK_MAP": true
+}

@@ -1,0 +1,731 @@
+{
+  "-1": {
+    "africa": 0,
+    "asia": 0,
+    "canada": 0,
+    "europe": 0,
+    "latina": 0,
+    "oceania": 0,
+    "usa": 0
+  },
+  "0": {
+    "africa": 5,
+    "asia": 4,
+    "canada": 3,
+    "europe": 2,
+    "latina": 1,
+    "oceania": 7,
+    "usa": 15
+  },
+  "1": {
+    "africa": 9,
+    "asia": 11,
+    "canada": 5,
+    "europe": 17,
+    "latina": 2,
+    "oceania": 10,
+    "usa": 20
+  },
+  "2": {
+    "africa": 13,
+    "asia": 14,
+    "canada": 12,
+    "europe": 32,
+    "latina": 4,
+    "oceania": 11,
+    "usa": 25
+  },
+  "3": {
+    "africa": 17,
+    "asia": 24,
+    "canada": 19,
+    "europe": 37,
+    "latina": 6,
+    "oceania": 12,
+    "usa": 28
+  },
+  "4": {
+    "africa": 24,
+    "asia": 27,
+    "canada": 23,
+    "europe": 47,
+    "latina": 8,
+    "oceania": 13,
+    "usa": 38
+  },
+  "5": {
+    "africa": 31,
+    "asia": 30,
+    "canada": 28,
+    "europe": 57,
+    "latina": 10,
+    "oceania": 14,
+    "usa": 47
+  },
+  "6": {
+    "africa": 35,
+    "asia": 40,
+    "canada": 35,
+    "europe": 60,
+    "latina": 12,
+    "oceania": 15,
+    "usa": 57
+  },
+  "7": {
+    "africa": 40,
+    "asia": 42,
+    "canada": 39,
+    "europe": 80,
+    "latina": 13,
+    "oceania": 27,
+    "usa": 60
+  },
+  "8": {
+    "africa": 47,
+    "asia": 46,
+    "canada": 41,
+    "europe": 95,
+    "latina": 14,
+    "oceania": 30,
+    "usa": 70
+  },
+  "9": {
+    "africa": 52,
+    "asia": 50,
+    "canada": 42,
+    "europe": 110,
+    "latina": 16,
+    "oceania": 33,
+    "usa": 87
+  },
+  "10": {
+    "africa": 57,
+    "asia": 52,
+    "canada": 46,
+    "europe": 120,
+    "latina": 17,
+    "oceania": 41,
+    "usa": 99
+  },
+  "11": {
+    "africa": 64,
+    "asia": 62,
+    "canada": 50,
+    "europe": 121,
+    "latina": 22,
+    "oceania": 43,
+    "usa": 107
+  },
+  "12": {
+    "africa": 67,
+    "asia": 64,
+    "canada": 55,
+    "europe": 122,
+    "latina": 26,
+    "oceania": 50,
+    "usa": 137
+  },
+  "13": {
+    "africa": 69,
+    "asia": 71,
+    "canada": 58,
+    "europe": 126,
+    "latina": 27,
+    "oceania": 55,
+    "usa": 157
+  },
+  "14": {
+    "africa": 73,
+    "asia": 74,
+    "canada": 60,
+    "europe": 133,
+    "latina": 28,
+    "oceania": 60,
+    "usa": 187
+  },
+  "15": {
+    "africa": 76,
+    "asia": 81,
+    "canada": 65,
+    "europe": 143,
+    "latina": 32,
+    "oceania": 61,
+    "usa": 189
+  },
+  "16": {
+    "africa": 79,
+    "asia": 86,
+    "canada": 67,
+    "europe": 150,
+    "latina": 33,
+    "oceania": 76,
+    "usa": 198
+  },
+  "17": {
+    "africa": 82,
+    "asia": 90,
+    "canada": 69,
+    "europe": 155,
+    "latina": 34,
+    "oceania": 83,
+    "usa": 228
+  },
+  "18": {
+    "africa": 84,
+    "asia": 94,
+    "canada": 70,
+    "europe": 162,
+    "latina": 37,
+    "oceania": 88,
+    "usa": 258
+  },
+  "19": {
+    "africa": 88,
+    "asia": 101,
+    "canada": 72,
+    "europe": 187,
+    "latina": 40,
+    "oceania": 93,
+    "usa": 259
+  },
+  "20": {
+    "africa": 90,
+    "asia": 105,
+    "canada": 73,
+    "europe": 209,
+    "latina": 43,
+    "oceania": 103,
+    "usa": 269
+  },
+  "21": {
+    "africa": 94,
+    "asia": 107,
+    "canada": 74,
+    "europe": 221,
+    "latina": 46,
+    "oceania": 113,
+    "usa": 279
+  },
+  "22": {
+    "africa": 96,
+    "asia": 114,
+    "canada": 75,
+    "europe": 241,
+    "latina": 49,
+    "oceania": 118,
+    "usa": 283
+  },
+  "23": {
+    "africa": 99,
+    "asia": 116,
+    "canada": 76,
+    "europe": 256,
+    "latina": 53,
+    "oceania": 123,
+    "usa": 300
+  },
+  "24": {
+    "africa": 103,
+    "asia": 118,
+    "canada": 77,
+    "europe": 266,
+    "latina": 56,
+    "oceania": 135,
+    "usa": 320
+  },
+  "25": {
+    "africa": 105,
+    "asia": 121,
+    "canada": 78,
+    "europe": 271,
+    "latina": 60,
+    "oceania": 150,
+    "usa": 332
+  },
+  "26": {
+    "africa": 109,
+    "asia": 123,
+    "canada": 79,
+    "europe": 291,
+    "latina": 72,
+    "oceania": 155,
+    "usa": 335
+  },
+  "27": {
+    "africa": 114,
+    "asia": 126,
+    "canada": 81,
+    "europe": 306,
+    "latina": 81,
+    "oceania": 172,
+    "usa": 336
+  },
+  "28": {
+    "africa": 119,
+    "asia": 130,
+    "canada": 82,
+    "europe": 316,
+    "latina": 94,
+    "oceania": 179,
+    "usa": 338
+  },
+  "29": {
+    "africa": 123,
+    "asia": 137,
+    "canada": 84,
+    "europe": 317,
+    "latina": 109,
+    "oceania": 189,
+    "usa": 351
+  },
+  "30": {
+    "africa": 126,
+    "asia": 138,
+    "canada": 88,
+    "europe": 319,
+    "latina": 121,
+    "oceania": 199,
+    "usa": 366
+  },
+  "31": {
+    "africa": 131,
+    "asia": 142,
+    "canada": 89,
+    "europe": 331,
+    "latina": 124,
+    "oceania": 219,
+    "usa": 373
+  },
+  "32": {
+    "africa": 133,
+    "asia": 147,
+    "canada": 93,
+    "europe": 338,
+    "latina": 125,
+    "oceania": 222,
+    "usa": 398
+  },
+  "33": {
+    "africa": 137,
+    "asia": 154,
+    "canada": 94,
+    "europe": 358,
+    "latina": 128,
+    "oceania": 232,
+    "usa": 400
+  },
+  "34": {
+    "africa": 142,
+    "asia": 156,
+    "canada": 104,
+    "europe": 375,
+    "latina": 129,
+    "oceania": 236,
+    "usa": 413
+  },
+  "35": {
+    "africa": 143,
+    "asia": 158,
+    "canada": 116,
+    "europe": 400,
+    "latina": 133,
+    "oceania": 239,
+    "usa": 418
+  },
+  "36": {
+    "africa": 148,
+    "asia": 159,
+    "canada": 119,
+    "europe": 402,
+    "latina": 137,
+    "oceania": 254,
+    "usa": 435
+  },
+  "37": {
+    "africa": 152,
+    "asia": 161,
+    "canada": 124,
+    "europe": 410,
+    "latina": 138,
+    "oceania": 274,
+    "usa": 452
+  },
+  "38": {
+    "africa": 153,
+    "asia": 168,
+    "canada": 127,
+    "europe": 425,
+    "latina": 140,
+    "oceania": 278,
+    "usa": 457
+  },
+  "39": {
+    "africa": 157,
+    "asia": 169,
+    "canada": 135,
+    "europe": 447,
+    "latina": 142,
+    "oceania": 293,
+    "usa": 462
+  },
+  "40": {
+    "africa": 158,
+    "asia": 173,
+    "canada": 138,
+    "europe": 462,
+    "latina": 144,
+    "oceania": 305,
+    "usa": 467
+  },
+  "41": {
+    "africa": 159,
+    "asia": 176,
+    "canada": 143,
+    "europe": 469,
+    "latina": 148,
+    "oceania": 335,
+    "usa": 469
+  },
+  "42": {
+    "africa": 161,
+    "asia": 179,
+    "canada": 144,
+    "europe": 473,
+    "latina": 158,
+    "oceania": 350,
+    "usa": 486
+  },
+  "43": {
+    "africa": 165,
+    "asia": 184,
+    "canada": 147,
+    "europe": 485,
+    "latina": 160,
+    "oceania": 370,
+    "usa": 487
+  },
+  "44": {
+    "africa": 168,
+    "asia": 186,
+    "canada": 159,
+    "europe": 505,
+    "latina": 161,
+    "oceania": 375,
+    "usa": 496
+  },
+  "45": {
+    "africa": 171,
+    "asia": 190,
+    "canada": 184,
+    "europe": 510,
+    "latina": 162,
+    "oceania": 377,
+    "usa": 503
+  },
+  "46": {
+    "africa": 172,
+    "asia": 193,
+    "canada": 199,
+    "europe": 515,
+    "latina": 164,
+    "oceania": 394,
+    "usa": 512
+  },
+  "47": {
+    "africa": 173,
+    "asia": 197,
+    "canada": 202,
+    "europe": 525,
+    "latina": 166,
+    "oceania": 419,
+    "usa": 519
+  },
+  "48": {
+    "africa": 175,
+    "asia": 202,
+    "canada": 217,
+    "europe": 529,
+    "latina": 167,
+    "oceania": 436,
+    "usa": 522
+  },
+  "49": {
+    "africa": 177,
+    "asia": 206,
+    "canada": 252,
+    "europe": 530,
+    "latina": 170,
+    "oceania": 448,
+    "usa": 527
+  },
+  "50": {
+    "africa": 178,
+    "asia": 209,
+    "canada": 282,
+    "europe": 532,
+    "latina": 174,
+    "oceania": 453,
+    "usa": 539
+  },
+  "51": {
+    "africa": 179,
+    "asia": 214,
+    "canada": 290,
+    "europe": 536,
+    "latina": 176,
+    "oceania": 465,
+    "usa": 554
+  },
+  "52": {
+    "africa": 180,
+    "asia": 216,
+    "canada": 305,
+    "europe": 543,
+    "latina": 180,
+    "oceania": 468,
+    "usa": 564
+  },
+  "53": {
+    "africa": 182,
+    "asia": 221,
+    "canada": 330,
+    "europe": 551,
+    "latina": 181,
+    "oceania": 480,
+    "usa": 573
+  },
+  "54": {
+    "africa": 185,
+    "asia": 228,
+    "canada": 360,
+    "europe": 553,
+    "latina": 185,
+    "oceania": 481,
+    "usa": 583
+  },
+  "55": {
+    "africa": 190,
+    "asia": 231,
+    "canada": 369,
+    "europe": 554,
+    "latina": 187,
+    "oceania": 501,
+    "usa": 595
+  },
+  "56": {
+    "africa": 192,
+    "asia": 232,
+    "canada": 409,
+    "europe": 558,
+    "latina": 190,
+    "oceania": 506,
+    "usa": 602
+  },
+  "57": {
+    "africa": 195,
+    "asia": 233,
+    "canada": 426,
+    "europe": 562,
+    "latina": 192,
+    "oceania": 521,
+    "usa": 607
+  },
+  "58": {
+    "africa": 198,
+    "asia": 240,
+    "canada": 456,
+    "europe": 564,
+    "latina": 197,
+    "oceania": 522,
+    "usa": 611
+  },
+  "59": {
+    "africa": 199,
+    "asia": 245,
+    "canada": 486,
+    "europe": 566,
+    "latina": 201,
+    "oceania": 534,
+    "usa": 614
+  },
+  "60": {
+    "africa": 202,
+    "asia": 254,
+    "canada": 498,
+    "europe": 571,
+    "latina": 202,
+    "oceania": 559,
+    "usa": 616
+  },
+  "61": {
+    "africa": 203,
+    "asia": 258,
+    "canada": 515,
+    "europe": 581,
+    "latina": 204,
+    "oceania": 579,
+    "usa": 619
+  },
+  "62": {
+    "africa": 210,
+    "asia": 262,
+    "canada": 545,
+    "europe": 583,
+    "latina": 205,
+    "oceania": 584,
+    "usa": 622
+  },
+  "63": {
+    "africa": 212,
+    "asia": 265,
+    "canada": 580,
+    "europe": 595,
+    "latina": 206,
+    "oceania": 588,
+    "usa": 627
+  },
+  "64": {
+    "africa": 214,
+    "asia": 273,
+    "canada": 595,
+    "europe": 596,
+    "latina": 210,
+    "oceania": 595,
+    "usa": 642
+  },
+  "65": {
+    "africa": 215,
+    "asia": 276,
+    "canada": 625,
+    "europe": 600,
+    "latina": 212,
+    "oceania": 600,
+    "usa": 649
+  },
+  "66": {
+    "africa": 216,
+    "asia": 286,
+    "canada": 650,
+    "europe": 602,
+    "latina": 216,
+    "oceania": 607,
+    "usa": 652
+  },
+  "67": {
+    "africa": 217,
+    "asia": 288,
+    "canada": 680,
+    "europe": 605,
+    "latina": 220,
+    "oceania": 612,
+    "usa": 659
+  },
+  "68": {
+    "africa": 220,
+    "asia": 313,
+    "canada": 700,
+    "europe": 607,
+    "latina": 221,
+    "oceania": 616,
+    "usa": 666
+  },
+  "69": {
+    "africa": 222,
+    "asia": 318,
+    "canada": 720,
+    "europe": 611,
+    "latina": 224,
+    "oceania": 628,
+    "usa": 667
+  },
+  "70": {
+    "africa": 223,
+    "asia": 320,
+    "canada": 725,
+    "europe": 636,
+    "latina": 228,
+    "oceania": 636,
+    "usa": 674
+  },
+  "71": {
+    "africa": 224,
+    "asia": 323,
+    "canada": 750,
+    "europe": 648,
+    "latina": 232,
+    "oceania": 638,
+    "usa": 679
+  },
+  "72": {
+    "africa": 226,
+    "asia": 343,
+    "canada": 753,
+    "europe": 658,
+    "latina": 236,
+    "oceania": 645,
+    "usa": 680
+  },
+  "73": {
+    "africa": 227,
+    "asia": 348,
+    "canada": 775,
+    "europe": 661,
+    "latina": 251,
+    "oceania": 649,
+    "usa": 682
+  },
+  "74": {
+    "africa": 230,
+    "asia": 350,
+    "canada": 790,
+    "europe": 670,
+    "latina": 256,
+    "oceania": 661,
+    "usa": 683
+  },
+  "75": {
+    "africa": 232,
+    "asia": 353,
+    "canada": 820,
+    "europe": 679,
+    "latina": 257,
+    "oceania": 666,
+    "usa": 690
+  },
+  "76": {
+    "africa": 233,
+    "asia": 365,
+    "canada": 840,
+    "europe": 681,
+    "latina": 262,
+    "oceania": 669,
+    "usa": 694
+  },
+  "77": {
+    "africa": 234,
+    "asia": 367,
+    "canada": 865,
+    "europe": 695,
+    "latina": 267,
+    "oceania": 676,
+    "usa": 697
+  },
+  "78": {
+    "africa": 235,
+    "asia": 371,
+    "canada": 895,
+    "europe": 698,
+    "latina": 272,
+    "oceania": 693,
+    "usa": 699
+  },
+  "79": {
+    "africa": 237,
+    "asia": 372,
+    "canada": 904,
+    "europe": 718,
+    "latina": 275,
+    "oceania": 705,
+    "usa": 709
+  }
+}

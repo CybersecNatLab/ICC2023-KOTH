@@ -1,0 +1,45 @@
+log "[cat] cat test initialized"
+
+
+InitInteger r1, #0
+InitInteger r3, #0
+
+
+:loop1
+
+
+InitInteger r2, #0
+:loop2
+
+GetTileInformation r1, r2, r10, r11, r12, r13, r14, r15
+log "[cat] got entity:"
+log r12
+isnull r12
+JMPEQ0 continue
+cmp r12, #0; change the "1"
+JMPNEQ0 continue
+
+log "[cat] got entityID:"
+log r13
+cmp r13, "changeme"; change the "changeme"
+JMPEQ0 continue
+
+MoveTo r1, r2
+
+:continue
+add r2, #1, r2
+
+cmp r2, #50
+JMPNEQ0 continue2
+add r1, #1, r1
+
+cmp r1, #50
+JMPEQ0 finish; should never jump here
+
+JMP loop1
+
+:continue2
+JMP loop2
+
+:finish
+DoNothing

@@ -1,0 +1,148 @@
+div.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 15%;
+}
+
+div.home h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+div.home h1 > span:nth-child(odd) {
+  color: #2aaae3;
+}
+
+div.home > div:first-child {
+  height: calc(100vh - 100px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.home > div.upload {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border: 2px solid #023399;
+  border-radius: 18px;
+}
+
+div.home > div.upload input[type='file'] {
+  display: none;
+}
+
+div.home > div.upload > label {
+  flex-grow: 1;
+
+  font-size: 30px;
+  cursor: pointer;
+
+  margin-left: 2rem;
+}
+
+div.home > div.upload > button {
+  background: transparent;
+
+  padding: 1rem 2rem;
+
+  font-size: 30px;
+  cursor: pointer;
+
+  border-style: solid;
+  border-color: #023399;
+  border-width: 0 0 0 2px;
+}
+
+div.home > div.upload > button:hover {
+  background: #023399;
+
+  color: #fff;
+
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+div.home > ul {
+  width: 100%;
+  padding: 4rem 3rem;
+  margin-bottom: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+
+  list-style: none;
+
+  background-image: url('HomeBackground.png');
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center top;
+
+  border-radius: 24px;
+}
+div.home > ul:has(> :nth-child(8)) {
+  background-size: contain;
+}
+
+div.home > ul > li {
+  height: calc(140px - 2rem);
+
+  color: #fff;
+  font-size: 35px;
+
+  padding: 1rem 3rem;
+
+  background-color: #00000077;
+  border-radius: 16px;
+}
+@media (min-width: 1800px) {
+  div.home > ul > li {
+    height: calc(120px - 2rem);
+  }
+}
+
+div.home > ul > li > a {
+  height: 100%;
+
+  text-decoration: none;
+  color: #fff;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 4rem;
+  align-items: center;
+}
+
+div.home ul.scoreboard {
+  list-style: none;
+}
+
+div.home ul.scoreboard > li {
+  font-size: 30px;
+  min-width: 15rem;
+
+  vertical-align: center;
+}
+
+div.home ul.scoreboard > li > img {
+  height: 30px;
+  margin-bottom: -8px;
+}
+
+div.sprites-header {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+div.sprites-header img {
+  image-rendering: pixelated;
+  margin-left: 6px;
+  margin-right: 6px;
+}

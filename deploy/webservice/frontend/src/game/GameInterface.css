@@ -1,0 +1,183 @@
+div.game-interface {
+    height: calc(100% - 100px - 4rem);
+
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+
+    margin: 2rem 7%;
+
+    color: #023399;
+}
+
+div.game-interface > div:nth-child(even) {
+    padding: 0 2rem;
+}
+
+div.game-interface > div:nth-child(odd) {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid #023399;
+    border-radius: 21px;
+    box-shadow: 0 2px 4px #00000029;
+
+    padding: 0 2rem;
+}
+
+div.game-interface canvas {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #023399;
+    border-radius: 21px;
+    box-shadow: 0 2px 4px #00000029;
+}
+
+div.game-interface h1 {
+    font-size: 30px;
+    font-weight: normal;
+
+    margin-bottom: .5rem;
+}
+
+div.game-interface h5 {
+    font-size: 20px;
+    font-weight: normal;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.game-interface .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: .7rem;
+}
+
+div.game-interface .buttons > button {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: .5rem 1rem;
+    flex-grow: 1;
+
+    background-color: #2AAAE3;
+
+    border: 0;
+    border-radius: 8px;
+}
+
+div.game-interface .speed > input {
+    margin-top: .5rem;
+}
+
+div.game-interface hr {
+    height: 2px;
+    width: 100%;
+
+    background-color: #023399;
+    border: 0;
+}
+
+div.game-interface ul {
+    list-style: none;
+    padding: 0;
+
+    color: black;
+    text-transform: uppercase;
+}
+
+div.game-interface ul.logs {
+    flex: 1 1 0;
+    overflow-y: auto;
+}
+div.game-interface ul.history {
+    flex: 1 1 0; /* thank you, @pianka, for this trick */
+    overflow-y: auto;
+}
+
+div.game-interface ul > li {
+    cursor: pointer;
+
+    padding-left: .3rem;
+    padding-right: .3rem;
+    padding-bottom: .5rem;
+
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+
+    border: 0 solid #023399;
+    border-bottom-width: 2px;
+}
+
+div.game-interface ul.history > li {
+    cursor: default !important;
+}
+
+div.game-interface ul.scoreboard > li {
+    cursor: default !important;
+
+    display: flex;
+    flex-direction: row;
+}
+
+div.game-interface ul.scoreboard > li > :first-child {
+  flex-grow: 1;
+}
+
+div.ReactModal__Content {
+    inset-block: 15% !important;
+    inset-inline: 15% !important;
+
+    border: 2px solid #023399 !important;
+    border-radius: 21px !important;
+    box-shadow: 0 3px 6px #00000029;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.ReactModal__Content > div:first-child {
+    display: flex;
+    flex-direction: row;
+}
+
+div.ReactModal__Content > div:first-child > :first-child {
+    flex-grow: 1;
+}
+
+div.ReactModal__Content > div:first-child > button {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    margin: .7rem 0;
+    padding: .5rem 1rem;
+
+    background-color: #2AAAE3;
+
+    border: 0;
+    border-radius: 8px;
+}
+
+div.ReactModal__Content > div:nth-child(2) {
+    margin-top: 1rem;
+
+    overflow: auto;
+}

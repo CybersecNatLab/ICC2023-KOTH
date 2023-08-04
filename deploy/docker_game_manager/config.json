@@ -1,0 +1,22 @@
+{
+  "MAX_WAIT_FOR_MOVE_IN_MS": 100,
+  "PLAYER_CONNECTION_URIS": [
+    "africa:5000",
+    "asia:5000",
+    "canada:5000",
+    "europe:5000",
+    "latina:5000",
+    "oceania:5000",
+    "usa:5000"
+  ],
+  "PLAYER_NAMES": [
+    "africa",
+    "asia",
+    "canada",
+    "europe",
+    "latina",
+    "oceania",
+    "usa"
+  ],
+  "OUTPUT_INFO_DIRECTORY": "/output"
+}

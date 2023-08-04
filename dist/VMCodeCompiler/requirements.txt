@@ -1,0 +1,2 @@
+verboselogs==1.7
+coloredlogs==15.0.1

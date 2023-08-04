@@ -1,0 +1,25 @@
+version: "3.3"
+
+services:
+  backend:
+    build: .
+    volumes:
+      - ./config.json:/config.json
+      - ./results:/results
+    networks:
+      - player1
+      - player2
+
+  summoner1:
+    build: ./base_bot
+    networks:
+      - player1
+
+  summoner2:
+    build: ./base_bot
+    networks:
+      - player2
+
+networks:
+  player1:
+  player2:

@@ -1,0 +1,103 @@
+div.rules {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem 15%;
+  max-width: 1200px;
+  font-size: 24px;
+  margin: auto;
+  text-align: justify;
+}
+
+@font-face {
+  font-family: 'Rune';
+  src: url('../../public/rune.ttf') format('truetype');
+}
+
+.rune {
+  font-family: 'Rune';
+}
+
+div.rules h1 {
+  text-align: center;
+}
+
+div.rules div {
+  margin-bottom: 1rem;
+}
+
+div.rules code {
+  font-size: 18px;
+  background-color: lightgrey;
+}
+
+div.rules h1,
+div.rules h2,
+div.rules h3 {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+div.rules thead {
+  text-align: left;
+}
+
+div.rules table.terrains-table tr td:first-child {
+  text-align: center;
+}
+
+div.rules table.minion-table {
+  margin-top: 0;
+}
+
+div.rules table.minion-table thead {
+  text-align: center;
+}
+
+div.rules table.minion-table img {
+  image-rendering: pixelated;
+}
+
+div.rules table.minion-table.float-left {
+  float: left;
+  margin-right: 2rem;
+}
+
+div.rules table.minion-table.float-right {
+  float: right;
+  margin-left: 2rem;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-10 {
+  opacity: 10%;
+}
+.opacity-20 {
+  opacity: 20%;
+}
+.opacity-30 {
+  opacity: 30%;
+}
+.opacity-40 {
+  opacity: 40%;
+}
+.opacity-50 {
+  opacity: 50%;
+}
+.opacity-60 {
+  opacity: 60%;
+}
+.opacity-70 {
+  opacity: 70%;
+}
+.opacity-80 {
+  opacity: 80%;
+}
+.opacity-90 {
+  opacity: 90%;
+}
+.opacity-100 {
+  opacity: 100%;
+}
