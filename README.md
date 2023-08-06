@@ -4,7 +4,7 @@ This repo contains all the files to run the King-of-the-Hill (KOTH) game propose
 
 ![KOTH](/img/KOTH.png)
 
-The King-of-the-Hill (KOTH) game was developed by team of the italian [Cybersecurity National Lab](https://cybersecnatlab.it), credits go to: Alberto [alberto247](https://github.com/alberto247) Carboneri, Gianluca [devgianlu](https://github.com/devgianlu) Altomani, Gaspare [GaspareG](https://github.com/GaspareG) Ferraro and Matteo [mr96](https://github.com/mr-96) Rossi
+The King-of-the-Hill (KOTH) game was developed by team of the italian [Cybersecurity National Lab](https://cybersecnatlab.it), credits go to: Alberto [alberto247](https://github.com/alberto247) Carboneri, Gianluca [devgianlu](https://github.com/devgianlu) Altomani, Matteo [matpro](https://github.com/mat-pr) Protopapa, Gaspare [GaspareG](https://github.com/GaspareG) Ferraro and Matteo [mr96](https://github.com/mr-96) Rossi
 
 The repo is organized in the following files and folders:
 
