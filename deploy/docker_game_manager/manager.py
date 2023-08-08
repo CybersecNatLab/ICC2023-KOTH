@@ -26,7 +26,7 @@ if os.geteuid() != 0:
     if (char != 'y'):
         exit(-2)
 
-# TODO: aggiornare timestamp esatto il giorno della gara
+# TODO: Update before the start of the competition
 GAME_START = 1690448593  # timestamp of game start
 ROUND_DELTA = 60*6  # 6 minutes between rounds
 GAME_LENGTH = 60*60*8  # 60*60*8 # 8 hours
