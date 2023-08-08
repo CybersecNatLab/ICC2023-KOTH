@@ -18,5 +18,15 @@
     "oceania",
     "usa"
   ],
+  "FINAL_SCOREBOARD_SCORES": [
+    10,
+    7,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
   "OUTPUT_INFO_DIRECTORY": "/output"
 }

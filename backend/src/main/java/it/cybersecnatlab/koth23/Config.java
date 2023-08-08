@@ -106,6 +106,11 @@ public final class Config {
                 Config.PLAYER_NAMES = new String[names.length()];
                 for (int i = 0; i < names.length(); i++)
                     Config.PLAYER_NAMES[i] = names.getString(i);
+            }else if(key.equals("FINAL_SCOREBOARD_SCORES")) {
+                JSONArray scores = config.getJSONArray(key);
+                Config.FINAL_SCOREBOARD_SCORES = new int[scores.length()];
+                for (int i = 0; i < scores.length(); i++)
+                    Config.FINAL_SCOREBOARD_SCORES[i] = scores.getInt(i);
             } else {
                 try {
                     Object value = config.get(key);
